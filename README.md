@@ -12,7 +12,7 @@ Desenvolva um Plugin em WordPress usando o boilerplate do [WP Emerge](https://do
     price: "10.00",
     type: "simple",
     imageUrl: "https://challenge.homolog.tech/product1.jpg",
-    productLink: "https://challenge.homolog.tech/product1",
+    productLink: "https://challenge.homolog.tech/product/product1",
 }
 ```
 
