@@ -19,7 +19,7 @@ Desenvolva um Plugin em WordPress usando o boilerplate do [WP Emerge](https://do
 **Especifícações:**
 
 * Criar uma rota personalizada com um parametro `paged` (opcional);
-* Busque pelos produtos usando as rotas do Woocommerce no site [domain.com](https://challenge.homolog.tech/);
+* Busque pelos produtos usando as rotas do Woocommerce no site [challenge.homolog.tech](https://challenge.homolog.tech/);
 * Retorne o resultado em formato `JSON`;
 * De preferencia utilizando o [WP Emerge Plugin](https://docs.wpemerge.com/#/starter/plugin/quickstart).
 
