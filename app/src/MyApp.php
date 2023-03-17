@@ -14,7 +14,7 @@ class MyApp {
 
 		add_filter('template_include', function ($page_template) {
 
-			if (is_page($this->page_title)) {
+			if (is_page('external-product-listing')) {
 
 				$page_template = dirname(__FILE__) . '\..\..\views\page-external-product-listing.php';
 			}
