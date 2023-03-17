@@ -29,5 +29,8 @@ Obs: sem o parametro paged, irá trazer a quantidade padrão de 10 itens
 ✅ Busque pelos produtos usando as rotas do Woocommerce no site [challenge.homolog.tech](https://challenge.homolog.tech/);
 ✅ Retorne o resultado em formato `JSON`;
 ✅ De preferencia utilizando o [WP Emerge Plugin](https://docs.wpemerge.com/#/starter/plugin/quickstart).
+✅ Criar uma página no frontend que use a rota personalizada via javascript. (página criada na ativação em: /external-product-listing/)
 
-- Criar uma página no frontend que use a rota personalizada via javascript.
+**Notas Finais:**
+
+Para o funcionamento correto após ser clonado o repoitório, ainda é necessário rodar `composer install` para configurar corretamente.
