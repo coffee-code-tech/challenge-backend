@@ -15,7 +15,7 @@ get_header();
 
 <div class="container">
     <div class="product-listing">
-
+        <span class="dashicons dashicons-image-rotate loading"></span>
     </div>
 </div>
 
