@@ -1,9 +1,15 @@
 # WordPress Backend Challenge
+
 ## Desafio para programadores backend em WordPress na CoffeeCode.
 
-**Introdução**
+**Endpoint**
 
-Desenvolva um Plugin em WordPress usando o boilerplate do [WP Emerge](https://docs.wpemerge.com/#/starter/plugin/quickstart) que crie uma [rota personalizada](https://developer.wordpress.org/rest-api/extending-the-rest-api/adding-custom-endpoints/) que aceite pelo menos os paramentro `paged` que busque e liste os produtos em ordem de preço crescente, paginando de 5 em 5 e retorne o resultado como `JSON`, na seguinte estrutura:
+O endpoint para consulta utilizando o parametro paged é o seguinte:
+
+http://localhost/wp-json/myapp/v1/products?paged=1,1 (itens por página, página)
+
+Produzirá um resultado como este:
+
 ```
 {
     id: 123,
@@ -16,29 +22,20 @@ Desenvolva um Plugin em WordPress usando o boilerplate do [WP Emerge](https://do
 }
 ```
 
+Obs: sem o parametro paged, irá trazer a quantidade padrão de 10 itens
+
 **Especifícações:**
 
-* Criar uma rota personalizada com um parametro `paged` (opcional);
-* Busque pelos produtos usando as rotas do Woocommerce no site [challenge.homolog.tech](https://challenge.homolog.tech/);
-* Retorne o resultado em formato `JSON`;
-* De preferencia utilizando o [WP Emerge Plugin](https://docs.wpemerge.com/#/starter/plugin/quickstart).
+✅ Criar uma rota personalizada com um parametro `paged` (opcional);
 
-**Instruções**
+✅ Busque pelos produtos usando as rotas do Woocommerce no site [challenge.homolog.tech](https://challenge.homolog.tech/);
 
-1. Efetue o fork deste repositório e crie um branch com o seu nome e sobrenome. (exemplo: fulano-dasilva)
-2. Após finalizar o desafio, crie um Pull Request.
-3. Aguarde algum contribuidor realizar o code review.
+✅ Retorne o resultado em formato `JSON`;
 
-**Extra**
+✅ De preferencia utilizando o [WP Emerge Plugin](https://docs.wpemerge.com/#/starter/plugin/quickstart).
 
-Opcional
-1. Criar uma página no frontend que usando a rota personalizada via javascript.
+✅ Criar uma página no frontend que use a rota personalizada via javascript. (página criada na ativação em: /external-product-listing/)
 
-**Pré-requisitos**
+**Notas Finais:**
 
-* PHP >= 8.1
-* Orientado a objetos
-
-**Dúvidas**
-
-> Em caso de dúvidas, crie uma issue.
+Para o funcionamento correto após ser clonado o repoitório, ainda é necessário rodar `composer install` para configurar corretamente.
