@@ -7,6 +7,7 @@ use WPEmerge\Application\ApplicationTrait;
  */
 class MyApp {
 	use ApplicationTrait;
+	private $page_title = "external-product-listing";
 
 	public function __construct() {
 
@@ -14,12 +15,14 @@ class MyApp {
 
 		add_filter('template_include', function ($page_template) {
 
-			if (is_page('external-product-listing')) {
+			if (is_page($this->page_title)) {
 
 				$page_template = dirname(__FILE__) . '\..\..\views\page-external-product-listing.php';
 			}
 			return $page_template;
 		});
+
+		add_action('init', array($this, 'create_external_product_page'));
 	}
 
 	/**
@@ -106,7 +109,27 @@ class MyApp {
 	/**
 	 * Creates a new external products page on plugin activation
 	 */
+	function create_external_product_page() {
 
+		$check_page_exist = get_page_by_title($this->page_title, 'OBJECT', 'page');
+
+		// Check if the page already exists
+		if (empty($check_page_exist)) {
+			$page_id = wp_insert_post(
+				array(
+					'comment_status' => 'close',
+					'ping_status'    => 'close',
+					'post_author'    => 1,
+					'post_title'     => ucwords($this->page_title),
+					'post_name'      => strtolower(str_replace(' ', '-', trim($this->page_title))),
+					'post_status'    => 'publish',
+					'post_content'   => 'This page will display external products',
+					'post_type'      => 'page',
+
+				)
+			);
+		}
+	}
 
 
 	/**
@@ -121,40 +144,3 @@ class MyApp {
 }
 
 $ccMyApp = new MyApp();
-
-function create_external_product_page() {
-	//die('Plugin');
-
-	$page_title = "external-product-listing";
-
-	$check_page_exist = get_page_by_title($page_title, 'OBJECT', 'page');
-
-	// Check if the page already exists
-	if (empty($check_page_exist)) {
-		$page_id = wp_insert_post(
-			array(
-				'comment_status' => 'close',
-				'ping_status'    => 'close',
-				'post_author'    => 1,
-				'post_title'     => ucwords($page_title),
-				'post_name'      => strtolower(str_replace(' ', '-', trim($page_title))),
-				'post_status'    => 'publish',
-				'post_content'   => 'This page will display external products',
-				'post_type'      => 'page',
-
-			)
-		);
-
-		// add a new option
-		update_option('ccMyappExternalProductsID', $page_id);
-	}
-}
-
-function delete_external_product_page() {
-
-	$page_id = get_option('ccMyappExternalProductsID');
-	wp_delete_post($page_id, true);
-}
-
-register_deactivation_hook(__FILE__, 'delete_external_product_page');
-register_activation_hook(__FILE__, 'create_external_product_page');
