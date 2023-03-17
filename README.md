@@ -3,6 +3,7 @@
 ## Desafio para programadores backend em WordPress na CoffeeCode.
 
 **Endpoint**
+
 O endpoint para consulta utilizando o parametro paged é o seguinte:
 
 http://localhost/wp-json/myapp/v1/products?paged=1,1 (itens por página, página)
