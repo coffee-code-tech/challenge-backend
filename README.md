@@ -27,9 +27,13 @@ Obs: sem o parametro paged, irá trazer a quantidade padrão de 10 itens
 **Especifícações:**
 
 ✅ Criar uma rota personalizada com um parametro `paged` (opcional);
+
 ✅ Busque pelos produtos usando as rotas do Woocommerce no site [challenge.homolog.tech](https://challenge.homolog.tech/);
+
 ✅ Retorne o resultado em formato `JSON`;
+
 ✅ De preferencia utilizando o [WP Emerge Plugin](https://docs.wpemerge.com/#/starter/plugin/quickstart).
+
 ✅ Criar uma página no frontend que use a rota personalizada via javascript. (página criada na ativação em: /external-product-listing/)
 
 **Notas Finais:**
