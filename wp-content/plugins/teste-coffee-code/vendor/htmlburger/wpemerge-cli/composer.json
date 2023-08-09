@@ -1,0 +1,40 @@
+{
+    "name": "htmlburger/wpemerge-cli",
+    "version": "0.17.0",
+    "description": "CLI tool for WP Emerge.",
+    "type": "library",
+    "license": "GPL-2.0-only",
+    "homepage": "https://wpemerge.com/",
+    "authors": [
+        {
+            "name": "Atanas Angelov",
+            "email": "hi@atanas.dev",
+            "homepage": "https://atanas.dev/",
+            "role": "Developer"
+        },
+        {
+            "name": "htmlBurger",
+            "email": "info@htmlburger.com",
+            "homepage": "http://htmlburger.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.4 | ^4 | ^5",
+        "symfony/process": "^3.4 | ^4 | ^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPEmerge\\Cli\\": "src/"
+        },
+        "files": [
+            "config.php"
+        ]
+    },
+    "scripts": {
+        "test-install": "WPEmerge\\Cli\\App::install"
+    },
+    "bin": [
+        "bin/wpemerge"
+    ]
+}
