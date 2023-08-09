@@ -1,0 +1,110 @@
+2023-08-07T14:56:57+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:10
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('teste-coffee-co...')
+#2 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(58): activate_plugin('teste-coffee-co...', 'http://localhos...', false)
+#3 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 10
+
+2023-08-07T14:57:04+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:10
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('teste-coffee-co...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 10
+
+2023-08-07T14:57:05+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:10
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('teste-coffee-co...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 10
+
+2023-08-07T15:10:18+00:00 CRITICAL Uncaught Error: Call to undefined function WPEmerge\bootstrap() in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('teste-coffee-co...')
+#2 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(58): activate_plugin('teste-coffee-co...', 'http://localhos...', false)
+#3 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
+2023-08-07T15:10:26+00:00 CRITICAL Uncaught Error: Call to undefined function WPEmerge\bootstrap() in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('teste-coffee-co...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
+2023-08-07T15:10:26+00:00 CRITICAL Uncaught Error: Call to undefined function WPEmerge\bootstrap() in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('teste-coffee-co...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
+2023-08-07T15:14:17+00:00 CRITICAL Uncaught Error: Class "WPEmerge\WPEmerge" not found in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('teste-coffee-co...')
+#2 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(58): activate_plugin('teste-coffee-co...', 'http://localhos...', false)
+#3 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
+2023-08-07T15:14:25+00:00 CRITICAL Uncaught Error: Class "WPEmerge\WPEmerge" not found in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('teste-coffee-co...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
+2023-08-07T15:14:25+00:00 CRITICAL Uncaught Error: Class "WPEmerge\WPEmerge" not found in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('teste-coffee-co...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
+2023-08-07T15:14:45+00:00 CRITICAL Uncaught Error: Class "WPEmerge\WPEmerge" not found in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('teste-coffee-co...')
+#2 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(58): activate_plugin('teste-coffee-co...', 'http://localhos...', false)
+#3 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
+2023-08-07T15:14:52+00:00 CRITICAL Uncaught Error: Class "WPEmerge\WPEmerge" not found in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('teste-coffee-co...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
+2023-08-07T15:14:52+00:00 CRITICAL Uncaught Error: Class "WPEmerge\WPEmerge" not found in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('teste-coffee-co...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
+2023-08-07T15:15:25+00:00 CRITICAL Uncaught Error: Call to undefined function WPEmerge\bootstrap() in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(661): plugin_sandbox_scrape('teste-coffee-co...')
+#2 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(58): activate_plugin('teste-coffee-co...', 'http://localhos...', false)
+#3 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
+2023-08-07T15:15:33+00:00 CRITICAL Uncaught Error: Call to undefined function WPEmerge\bootstrap() in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('teste-coffee-co...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
+2023-08-07T15:15:33+00:00 CRITICAL Uncaught Error: Call to undefined function WPEmerge\bootstrap() in C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php:13
+Stack trace:
+#0 C:\xampp\htdocs\WP\wordpress\wp-admin\includes\plugin.php(2314): include_once()
+#1 C:\xampp\htdocs\WP\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('teste-coffee-co...')
+#2 {main}
+  thrown, em C:\xampp\htdocs\WP\wordpress\wp-content\plugins\teste-coffee-code\custom-product-list.php, na linha 13
+
